@@ -1,0 +1,20 @@
+{
+  "id": 146,
+  "title": "Poultry Environment Monitor Nutrient Dosing",
+  "repository_slug": "poultry-environment-monitor-nutrient-dosing",
+  "category": "Smart Agriculture",
+  "platform": "STM32",
+  "platform_family": "arduino",
+  "difficulty": "Intermediate",
+  "estimated_hours": 24,
+  "connectivity": "Local only",
+  "components": [
+    "camera module",
+    "EC sensor"
+  ],
+  "scope": "Build a smart agriculture prototype that uses camera module, EC sensor to dose nutrients using measured conditions. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Nutrient Dosing demonstration with repeatable test steps",
+  "mode": "closed_loop_control",
+  "entrypoint": "firmware/poultry-environment-monitor-nutrient-dosing/poultry-environment-monitor-nutrient-dosing.ino",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
